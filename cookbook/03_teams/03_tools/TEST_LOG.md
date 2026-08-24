@@ -1,3 +1,24 @@
+# Validation run 2026-08-24
+
+### Pattern Check
+
+**Status:** PASS
+
+**Notes:** The canonical cookbook checker validated all 9 examples with no
+violations.
+
+### async_toolkit_context.py
+
+**Status:** PASS
+
+**Description:** Deterministic execution verifying that async-only toolkit
+functions are included in the team members system message.
+
+**Result:** PASS. Both `async_search` and `async_summarize` were present. No API
+key, model call, database, or external service was required.
+
+---
+
 # Validation run 2026-02-15T00:43:27
 
 ### Pattern Check
@@ -94,4 +115,3 @@ ImportError: `agentql` not installed. Please install using `pip install agentql`
 **Result:** FAIL. Timeout after 120s
 
 ---
-

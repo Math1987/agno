@@ -50,7 +50,7 @@ team = Team(
 )
 
 # ---------------------------------------------------------------------------
-# Verify
+# Run Verification
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
     # async_mode=True shows async tools (used by aget_system_message / team.arun)
